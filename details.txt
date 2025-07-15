@@ -1,0 +1,2 @@
+clientID: a2cdce3b-2536-4016-ba25-34367cb01c70
+clientSecret: qVWhgwTYPPazEHHg
