@@ -33,6 +33,9 @@ export async function logEvent(
     message,
   };
 
+  console.log("Sending log with payload:", payload);
+  console.log("Using token:", token);
+
   try {
     const response = await fetch("http://20.244.56.144/evaluation-service/logs", {
       method: "POST",
@@ -50,7 +53,7 @@ export async function logEvent(
     } else {
       console.log("Log sent:", result);
     }
-  } catch (error) {
+  } catch (error: any) {
     console.error("Logging error:", error);
   }
 }

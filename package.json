@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/ujjwalkathait/2219845#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "node-fetch": "^2.7.0"
   }
 }
